@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,300;1,400;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: 'Roboto', sans-serif; ;
+    line-height:1.4;
+}
+p{
+    margin: 0.75rem 0.55rem;
+}
+/*///////////////////////////utility////////////////////////////////*/
+.text-primary{
+   color:  rgb(126, 39, 226);
+   ;
+}
+#navbar{
+    display: flex;
+    background: rgb(34, 12, 43);
+    color: white;
+    top: 0;
+    position: sticky;
+    justify-content: space-between;
+    z-index: 1;
+    padding: 1rem;
+}
+#navbar ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    
+}
+#navbar ul li a{
+    color: rgb(194, 194, 194);
+    padding: 0.75rem;
+    margin: 0 0.25rem;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    
+   background-color: rgb(126, 39, 226);
+    border-radius:5px ;
+}
+.container{  
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+
+
+    height: 100vh;
+    width: 100%;
+    
+}
+.m-heading{
+    font-size: 2rem;
+   color:rgb(2, 2, 2);
+   text-align: center;
+   padding-top: 90px;
+   text-decoration: solid;
+}
+.itemhead{
+    font-size: 2rem;
+   color:rgb(2, 2, 2);
+   text-align: center;
+   padding-top: 0;
+   text-decoration: solid;
+}
+
+.bg-light{
+    background: white;
+    color: #333;
+}
+.bg-dark{
+    background: rgb(51, 37, 88);
+    color: white;
+}
+.contact-form bg-primary{
+    color: black;
+    background-color  rgb(126, 39, 226);
+    
+}
+.bg-primary{
+    background-color:  rgb(126, 39, 226);
+   color: black;
+ 
+}
+
+.py-1{ padding:  0; }
+.py-2{ padding: 2rem 0; }
+.py-3{ padding: 3rem 0; }
+.p-1{ padding: 1.5rem ; }
+.p-2{ padding: 2rem ; }
+.p-3{ padding: 3rem ; }
+
+.m2-heading{
+    font-size: 2rem;
+    color:rgb(2, 2, 2);
+   }
+.list{
+    margin: 0.5rem 0;
+    list-style: none;
+}
+.list li{
+    padding: 0.5rem 0;
+    border-bottom: #444 dotted 1px;
+}
+
+
+/*//////////////////////////showcase////////////////////////////////*/
+#showcase{
+    background: gray url(../images/main.jpg) no-repeat center center/cover content-box ; 
+    height: 100vh;
+    width: 100%;
+    color: white;
+}
+#showcase .showcase-content{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center; 
+   height: 100%;
+   padding: 0 0.2rem;
+   
+   
+}
+.heading{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+   line-height: 1.2rem;
+}
+.lead{
+    font-size: 1.3rem;
+    margin-bottom:.5rem ;
+}
+.btn{
+    display: inline-block;
+    color:white;
+    background-color:  rgb(126, 39, 226);
+    ;
+    padding: .5rem 2rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.btn:hover{
+    background:  rgb(126, 39, 226);
+  color: black
+;
+} 
+.items{
+    display: flex;
+}.item{
+    flex: 1;
+    padding: 5rem 0;
+     text-align: center;
+
+}
+#what{
+    height: 85vh;
+    padding: 0;
+  margin-bottom: 0px;
+  background: url(../images/556.jpg)no-repeat center center/cover ;
+    
+}
+#what .items .item img{
+    background-color:  rgb(39, 167, 226);
+    padding: .1rem;
+    border-radius: 30%;
+    margin-bottom: 1rem;
+}
+#who{
+    display: flex;
+  margin: 0;
+  background: url(../images/);
+
+}
+#who div {
+    flex: 1;
+}
+#who .who-img{
+     background: url(../images/who.jpg) no-repeat center center/cover ;
+}
+
+#clients .items{
+    display: flex;
+}
+#clients .items img{
+ display: block;
+margin: auto;
+width: 60%;
+  ;
+}
+#it{
+    background: url(../images/123.jpg)no-repeat center center/cover;
+}
+.itemhead{
+    display: block;
+    background: url(../images/123.jpg) ;
+}
+
+#contact{
+    display:flex ;
+
+}
+
+ #contact .contact-form {
+    flex: 1;
+    background: url(../images/contact.jpg)no-repeat center center/cover;
+}
+#contact .map{
+
+    flex: 1;
+}
+
+#contact .contact-form .form-group
+{
+    margin: 0.75rem;
+}
+#contact .contact-form label{
+    display: block;
+}
+#contact .contact-form input
+#contact .contact-form textarea{
+    width:100%;
+    padding: 0.5rem;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+}
+.foot{
+    margin: 0;
+padding: 1.5rem;
+text-align: center;
+}
+
+#map{
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}

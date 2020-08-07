@@ -1,0 +1,32 @@
+#what .items {
+    display: block;
+    padding: 1rem;
+}
+#what .items .item {
+    display: flex;
+    text-align: left;
+}
+#what .items .item img{
+    margin-right: 1.3rem;
+    align-self: center;
+    margin-bottom: 0;
+}
+
+
+@media(max-width:500px){
+    #navbar{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+#map{
+    display: flex;
+    justify-content: right;
+width: 100%;
+}
+body{
+    font-family: 'Roboto', sans-serif; ;
+    line-height:1.4;
+    width: 100%;
+    overflow-x: hidden;
+}
